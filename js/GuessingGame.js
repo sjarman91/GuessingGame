@@ -1,3 +1,9 @@
+$(document).ready(function (){
+	$('img').on('click', function() {
+		$(this).hide();
+	});
+});
+
 // returns a random number bewteen 1 and 100
 function generateWinningNumber() {
 	return Math.floor(Math.random() * 100 + 1);
